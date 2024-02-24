@@ -1,3 +1,4 @@
+// components/Conversation/ConversationList.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -26,6 +27,7 @@ const ConversationList = () => {
         {conversations.map((conversation) => (
           <li key={conversation._id}>
             <p>{/* Display relevant information from the conversation */}</p>
+            {/* You need to display information such as customer name, last message, etc. */}
           </li>
         ))}
       </ul>
